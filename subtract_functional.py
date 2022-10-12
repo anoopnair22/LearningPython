@@ -1,8 +1,10 @@
-# subtraction funciton
-def subt(x,y):
-    z = (x - y)
+# subtraction function
+def subt(x, y):
+    z = (int(x) - int(y))
     print(z)
 
-subt (20,10)
 
+p = input("enter first value ")
+q = input("enter second value ")
+subt(p,q)
 
