@@ -1,11 +1,12 @@
-#get the first number
-x = 30
+# modified procedural
+x = input("enter first input")
+print("first values is " + x)
+y = input("enter second input")
+print("second values is " + y)
+z = int(x) // int(y)
 
-#get the second number
-y = 5
-
-#add the numbers and store the result
-z = (x//y)
-
-#print the result
-print (z)
+if int(x) < 0 or int(y) < 0:
+    print("please enter positive values")
+else:
+    print('result')
+    print(z)
