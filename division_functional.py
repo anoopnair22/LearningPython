@@ -1,7 +1,8 @@
-def div(x,y):
-    z = (x / y)
+def div(x, y):
+    z = (int(x) / int(y))
     print(z)
 
-div (6,2)
 
-
+p = input("enter first value ")
+q = input("enter second value ")
+div(p,q)
