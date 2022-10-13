@@ -1,8 +1,9 @@
 #multiplication function
-def mul(x,y):
-    z = (x * y)
+def mul(x, y):
+    z = (int(x) * int(y))
     print(z)
 
-mul (3,2)
 
-
+p = input("enter first value ")
+q = input("enter second value ")
+mul(p,q)
