@@ -1,12 +1,13 @@
-# get the first number
-# print("enter first input")
+# modified procedural
 x = input("enter first input")
 print("first values is " + x)
-print("enter second input")
-y = input()
+y = input("enter second input")
 print("second values is " + y)
-# sub the numbers and store the result
-print("result")
-z = (int(x) - int(y))
-# print the result
-print(z)
+z = int(x) - int(y)
+
+if int(x) < 0 or int(y) < 0:
+    print("please enter positive values")
+    exit()
+else:
+    print('result')
+    print(z)
