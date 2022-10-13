@@ -1,8 +1,11 @@
 #get the first number
-def add(x,y):
-    z = (x + y)
+def add(x, y):
+    z = (int(x) + int(y))
     print(z)
 
-add (5,4)
+
+p = input("enter first value ")
+q = input("enter second value ")
+add(p,q)
 
 
