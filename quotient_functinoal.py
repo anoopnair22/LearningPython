@@ -1,7 +1,9 @@
 #quotient functionality
-def quo(x,y):
-    z = (x // y)
+def quo(x, y):
+    z = (int(x) // int(y))
     print(z)
-quo (10,2)
 
 
+p = input("enter first value ")
+q = input("enter second value ")
+quo(p,q)
