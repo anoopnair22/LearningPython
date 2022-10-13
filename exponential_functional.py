@@ -1,7 +1,9 @@
 #exponential function
-def exp(x,y):
-    z = (x ** y)
+def exp(x, y):
+    z = (int(x) ** int(y))
     print(z)
-exp (2,3)
 
 
+p = input("enter first value ")
+q = input("enter second value ")
+exp(p,q)
