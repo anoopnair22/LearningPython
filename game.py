@@ -8,7 +8,7 @@ y = int(input("Which cupboard do you think the goblin is in [type in number]: ")
 #    print("Sorry! The goblin is still lurking somewhere else.")
 #else:
 #    print("Well done!! You have found the goblin. He was so scared he ran away.")
-i = 0
+i = 1
 while i < 5:
     if y == 1:
         print ("Well done!! You have found the goblin. He was so scared he ran away.")
