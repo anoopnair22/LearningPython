@@ -6,7 +6,7 @@ print("An award-winning game full of adventure and excitement (!)")
 x = input("Type in your name: ")
 level = int(input("Enter the level of complexity for the game [5 - 50]: "))
 bucket = '|__|'
-print(f"{x}, do you think you can find the goblin hiding in the kitchen cupboards?")
+print(f"{x}, do you think you can find the goblin hiding in the kitchen cupboards (5 tries only) ?")
 print (bucket * level)
 #print (z)
 y = int(input("Which cupboard do you think the goblin is in [type in number]: "))
